@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="main">
+    <div>
+        <img id="img-1" src="./Images/OIP.webp">
+    </div>
+    <div>
+        <a href="./index.html">HOME</a>
+        <a href="./Read.html">Read</a>
+        <a href="./Upload.html">Upload</a>
+    </div>
+</div>
+
+<h1 id="read-h1">FROM THE OTHER SIDE</h1>
+
+<div id="input-card">
+    <form id="form">
+
+        <p>Title:</p>
+        <input type="text" id="title" class="inp-el" placeholder="A ghostly encounter">
+
+        <p>Time/Date:</p>
+        <input type="datetime-local" id="datetime" class="inp-el">
+
+        <p>Location:</p>
+        <input type="text" id="location" class="inp-el" placeholder="London, UK">
+
+        <p>Details:</p>
+        <textarea id="details" class="inp-det" placeholder="I was trying to sleep when..."></textarea>
+
+        <br><br>
+        <button type="submit" id="sub">SUBMIT</button>
+
+        <p id="formMessageText"></p>
+
+    </form>
+</div>
+
+<script src="./upload.js" defer></script>
+
+</body>
+</html>

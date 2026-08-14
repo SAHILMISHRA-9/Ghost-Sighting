@@ -1,0 +1,136 @@
+body{
+    
+    background-image: url("./Images/1147229.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;   /* 🔴 FIX: was center */
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('/Fonts/shlop-rg.otf') format('opentype');
+}
+/* Navbar */
+#main{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#img-1{
+    height: 50px;
+    width: 50px;
+}
+
+/* Push links to right */
+#main div:last-child{
+    margin-left: auto;
+}
+
+/* spacing between links */
+#main a{
+    margin-left: 20px;
+}
+
+/* Headings */
+#main-h1{
+    margin: 60px 0;
+    font-family: MyFont;
+    font-size: 100px;
+}
+
+#main-h2{
+    font-family: MyFont;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+#read-h1{
+    margin: 60px 0;
+    font-family: MyFont;
+    font-size: 80px;
+}
+
+/* Font */
+@font-face {
+    font-family: MyFont;
+    src: url(./Fonts/shlop\ rg.otf);
+}
+
+/* Cards */
+.cards-container {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+    clear: both;
+}
+
+.sighting-card {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.sighting-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.sighting-text-wrapper {
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.sighting-card.expanded .sighting-text-wrapper {
+    max-height: 500px;
+}
+
+/* Form */
+#input-card {
+    margin: 20px auto;
+    width: 500px;
+    text-align: left;
+}
+
+#input-card p {
+    margin-bottom: 5px;
+}
+
+.inp-el{
+    height: 40px;
+    width: 500px;
+}
+
+.inp-det{
+    height: 130px;
+    width: 500px;
+    line-height: 1.5;
+    font-size: 16px;
+    overflow-x: hidden;
+    resize: none;
+}
+
+#sub{
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+    width: 500px;
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    font-family: MyFont;   /* 🔴 FIX: was Myfont */
+    font-size: 30px;
+}
+
+form {
+    width: 100%;
+}
