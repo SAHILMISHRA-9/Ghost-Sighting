@@ -1,9 +1,9 @@
 import http from 'http';
-import { severStatic } from './utils/serveStatic.js';
-import { handleGET, handlePost } from './handlers/routeHandlers.js';
+import { severStatic } from '../utils/serveStatic.js';
+import { handleGET, handlePost } from '../handlers/routeHandlers.js';
 
 const PORT = 9000;
-const __dirname = import.meta.dirname;
+const __dirname = path.join(import.meta.dirname, '..');
 
 const server = http.createServer(async (req, res) => {
 

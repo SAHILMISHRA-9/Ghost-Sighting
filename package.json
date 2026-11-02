@@ -2,11 +2,10 @@
   "name": "from-the-other-side",
   "version": "1.0.0",
   "description": "A platform for sharing ghostly encounters",
-  "main": "local-server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node local-server.js"
+    "start": "node local/server.js"
   },
   "author": "Sahil Mishra",
   "license": "ISC",
