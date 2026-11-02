@@ -11,7 +11,7 @@
   "author": "Sahil Mishra",
   "license": "ISC",
   "dependencies": {
-    "@electric-sql/pglite": "^0.4.5",
+    "@neondatabase/serverless": "^1.2.0",
     "sanitize-html": "^2.17.3"
   },
   "keywords": []
